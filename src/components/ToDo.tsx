@@ -15,11 +15,13 @@ function ToDo(todo: IToDo) {
         id: todo.id,
         category: newCategory,
       };
-      return [
+      oldToDos = [
         ...oldToDos.slice(0, targetIndex),
         newToDo,
         ...oldToDos.slice(targetIndex + 1),
       ];
+      localStorage.setItem("toDos", JSON.stringify(oldToDos));
+      return oldToDos;
     });
   };
   const deleteToDo = (event: React.MouseEvent<HTMLButtonElement>) => {
