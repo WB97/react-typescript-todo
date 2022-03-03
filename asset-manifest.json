@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-typescript-todo/static/js/main.bdafc20d.js",
+    "main.js": "/react-typescript-todo/static/js/main.e6692986.js",
     "index.html": "/react-typescript-todo/index.html",
-    "main.bdafc20d.js.map": "/react-typescript-todo/static/js/main.bdafc20d.js.map"
+    "main.e6692986.js.map": "/react-typescript-todo/static/js/main.e6692986.js.map"
   },
   "entrypoints": [
-    "static/js/main.bdafc20d.js"
+    "static/js/main.e6692986.js"
   ]
 }
